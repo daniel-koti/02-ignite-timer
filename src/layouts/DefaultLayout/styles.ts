@@ -6,9 +6,11 @@ export const LayoutContainer = styled.div`
   margin: 5rem auto;
   padding: 2.5rem;
 
-  background-color: ${(props) => props.theme['gray-800']};
+  background-color: ${(props) => props.theme['panel-800']};
   border-radius: 8px;
 
   display: flex;
   flex-direction: column;
+
+  overflow: auto;
 `
