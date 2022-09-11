@@ -1,9 +1,9 @@
 export const darkTheme = {
   white: '#fff',
 
-  'primary-300': '#00875F',
+  'primary-300': '#00B37E',
   'primary-500': '#00875F',
-  'primary-700': '#00875F',
+  'primary-700': '#015F43',
 
   'panel-600': '#323238',
   'panel-700': '#29292E',

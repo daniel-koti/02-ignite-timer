@@ -1,9 +1,9 @@
 export const lightTheme = {
   white: '#fff',
 
-  'primary-300': '#00875F',
+  'primary-300': '#00B37E',
   'primary-500': '#00875F',
-  'primary-700': '#00875F',
+  'primary-700': '#015F43',
 
   'panel-600': '#7C7C8A',
   'panel-700': '#8D8D99',
