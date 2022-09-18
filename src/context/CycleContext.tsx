@@ -82,7 +82,7 @@ export function CyclesContextProvider({ children }: CycleContextProviderProps) {
       }),
     )
     setActiveCycleId(null)
-    document.title = `Timer Podoro`
+    document.title = `Timer Pomodoro`
   }
 
   return (

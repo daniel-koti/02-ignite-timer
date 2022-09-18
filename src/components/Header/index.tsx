@@ -1,17 +1,31 @@
+import { useContext } from 'react'
 import { HeaderContainer, ToggleTheme } from './styles'
-import { Timer, Scroll, Sun } from 'phosphor-react'
+import { Timer, Scroll, Sun, Moon } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 
 import logoIgnite from '../../assets/logo.svg'
+import { ThemeContext } from '../../App'
 
 export function Header() {
+  const { toggleTheme, currentTheme } = useContext(ThemeContext)
+
+  function handleToggleTheme() {
+    toggleTheme()
+  }
+
   return (
     <HeaderContainer>
       <div>
         <img src={logoIgnite} alt="" />
-        <ToggleTheme>
-          <Sun size={24} />
-        </ToggleTheme>
+        {currentTheme === 'dark' ? (
+          <ToggleTheme onClick={handleToggleTheme}>
+            <Sun size={24} />
+          </ToggleTheme>
+        ) : (
+          <ToggleTheme onClick={handleToggleTheme}>
+            <Moon size={24} />
+          </ToggleTheme>
+        )}
       </div>
       <nav>
         <NavLink to="/" title="Timer">
