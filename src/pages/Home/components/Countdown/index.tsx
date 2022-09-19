@@ -38,7 +38,7 @@ export function Countdown() {
       interval = setInterval(() => {
         const secondsDifference = differenceInSeconds(
           new Date(),
-          activeCycle.startDate,
+          new Date(activeCycle.startDate), // caso a o startDate for uma string, ele converte para uma data
         )
 
         // If cycle is finished

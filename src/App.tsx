@@ -10,12 +10,12 @@ import { lightTheme } from './styles/themes/light'
 
 type Theme = 'light' | 'dark'
 
-interface ThemeContextProps {
+interface ThemeContextType {
   currentTheme: Theme
   toggleTheme: () => void
 }
 
-export const ThemeContext = createContext({} as ThemeContextProps)
+export const ThemeContext = createContext({} as ThemeContextType)
 
 export function App() {
   const [currentTheme, setCurrentTheme] = useState<Theme>('dark')
