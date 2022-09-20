@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ignite timer" src="./github/Logo.png" />
+    <img alt="Ignite timer" src=".github/Logo.png" />
     <br>
     Ignite timer
 </h1>
