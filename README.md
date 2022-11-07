@@ -107,8 +107,8 @@ https://github.com/daniel-koti/02-ignite-timer
 
 Reach out to me at one of the following places!
 
-- Linkedin at [Carlos Miguel](https://www.linkedin.com/in/carlos-miguel-380413197)
-- Instagram [Solrachix](https://www.instagram.com/solrachix)
+- Linkedin at [Daniel Moniz](https://www.linkedin.com/in/daniel-moniz/)
+- Instagram [daniel-koti](https://www.instagram.com/daniel_koti/)
 
 ---
 
