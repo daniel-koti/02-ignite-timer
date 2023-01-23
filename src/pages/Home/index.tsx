@@ -20,7 +20,7 @@ const newCycleFormValidationSchema = zod.object({
   minutesAmount: zod
     .number()
     .min(1, 'O ciclo precisa ser de nom mínimo 5 minutos')
-    .max(60, 'O ciclo precisa ser de no minimo 60 minutos'),
+    .max(60, 'O ciclo precisa ser de no mínimo 60 minutos'),
 })
 
 type NewCycleFormData = zod.infer<typeof newCycleFormValidationSchema>
@@ -53,6 +53,7 @@ export function Home() {
         <FormProvider {...newCycleForm}>
           <NewCycleForm />
         </FormProvider>
+
         <Countdown />
 
         {activeCycleId ? (
